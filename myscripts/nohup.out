@@ -1,0 +1,79 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 http://kali.download/kali kali-rolling InRelease [41.5 kB]
+Get:2 http://kali.download/kali kali-rolling/main amd64 Packages [21.0 MB]
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 http://kali.download/kali kali-rolling InRelease [41.5 kB]
+Get:2 http://kali.download/kali kali-rolling/main amd64 Packages [21.0 MB]
+Hit:3 https://ngrok-agent.s3.amazonaws.com buster InRelease
+Ign:4 http://kali.download/kali kali-rolling/main amd64 Contents (deb)
+Ign:5 http://kali.download/kali kali-rolling/non-free amd64 Packages
+Ign:6 http://kali.download/kali kali-rolling/non-free amd64 Contents (deb)
+Ign:4 http://kali.download/kali kali-rolling/main amd64 Contents (deb)
+Ign:5 http://kali.download/kali kali-rolling/non-free amd64 Packages
+Ign:6 http://kali.download/kali kali-rolling/non-free amd64 Contents (deb)
+Ign:4 http://kali.download/kali kali-rolling/main amd64 Contents (deb)
+Ign:5 http://kali.download/kali kali-rolling/non-free amd64 Packages
+Ign:6 http://kali.download/kali kali-rolling/non-free amd64 Contents (deb)
+Ign:4 http://kali.download/kali kali-rolling/main amd64 Contents (deb)
+Ign:5 http://kali.download/kali kali-rolling/non-free amd64 Packages
+Ign:6 http://kali.download/kali kali-rolling/non-free amd64 Contents (deb)
+Err:4 http://http.kali.org/kali kali-rolling/main amd64 Contents (deb)
+  Could not connect to kali.download:80 (2606:4700::6811:feef). - connect (113: No route to host) Could not connect to kali.download:80 (2606:4700::6811:fdef). - connect (113: No route to host) Could not connect to kali.download:80 (104.17.254.239). - connect (113: No route to host) Could not connect to kali.download:80 (104.17.253.239). - connect (113: No route to host) [IP: 2606:4700::6811:fdef 80]
+  Unable to connect to kali.download:http: [IP: 2606:4700::6811:fdef 80]
+  Could not connect to http.kali.org:80 (54.39.128.230). - connect (113: No route to host) Could not connect to http.kali.org:80 (2607:5300:203:3fe6::). - connect (113: No route to host) [IP: 2607:5300:203:3fe6:: 80]
+Ign:5 http://http.kali.org/kali kali-rolling/non-free amd64 Packages
+Ign:6 http://http.kali.org/kali kali-rolling/non-free amd64 Contents (deb)
+Ign:4 http://kali.download/kali kali-rolling/main amd64 Contents (deb)
+Ign:5 http://kali.download/kali kali-rolling/non-free amd64 Packages
+Ign:6 http://kali.download/kali kali-rolling/non-free amd64 Contents (deb)
+Err:4 http://http.kali.org/kali kali-rolling/main amd64 Contents (deb)
+  Could not connect to kali.download:80 (2606:4700::6811:feef). - connect (113: No route to host) Could not connect to kali.download:80 (2606:4700::6811:fdef). - connect (113: No route to host) Could not connect to kali.download:80 (104.17.254.239). - connect (113: No route to host) Could not connect to kali.download:80 (104.17.253.239). - connect (113: No route to host) [IP: 2606:4700::6811:fdef 80]
+  Unable to connect to kali.download:http: [IP: 2606:4700::6811:fdef 80]
+  Unable to connect to http.kali.org:http: [IP: 2607:5300:203:3fe6:: 80]
+Err:5 http://http.kali.org/kali kali-rolling/non-free amd64 Packages
+Err:6 http://http.kali.org/kali kali-rolling/non-free amd64 Contents (deb)
+Fetched 14.7 MB in 2min 44s (90.0 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+1108 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Warning: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/main/Contents-amd64  Unable to connect to http.kali.org:http: [IP: 2607:5300:203:3fe6:: 80]
+Warning: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/non-free/binary-amd64/Packages  
+Warning: Failed to fetch http://http.kali.org/kali/dists/kali-rolling/non-free/Contents-amd64  
+Warning: Some index files failed to download. They have been ignored, or old ones used instead.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  icu-devtools           linux-image-6.12.13-amd64
+  libabsl20230802        python3-aioconsole
+  libdnnl3               python3-dunamai
+  libflac12t64           python3-nfsclient
+  libfuse3-3             python3-packaging-whl
+  libgeos3.13.0          python3-poetry-dynamic-versioning
+  libglapi-mesa          python3-pyinstaller-hooks-contrib
+  libicu-dev             python3-pywerview
+  libjxl0.10             python3-requests-ntlm
+  liblbfgsb0             python3-setproctitle
+  libopenh264-7          python3-tomlkit
+  libpoppler145          python3-wheel-whl
+  libpython3.12-minimal  python3.12-tk
+  libpython3.12-stdlib   ruby-zeitwerk
+  libpython3.12t64       sphinx-rtd-theme-common
+  libutempter0           strongswan
+  libxnnpack0
+Use 'sudo apt autoremove' to remove them.
+
+Not upgrading:
+  strongswan
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 1
